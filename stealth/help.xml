@@ -1,0 +1,46 @@
+<help>Stealth:PRO - arielszz
+
+[Updates]
+
+
+1 - Removido sound que fazia o player desaparecer caso ficasse muito tempo parado.
+    Se eliminó el sonido que hacía desaparecer el reproductor si estaba detenido por mucho tiempo.
+
+2 - Também foi removido o bloco do sound que ficava no canto inferior esquerdo subindo até 100.
+    También se eliminó el bloque de sonido que estaba en la esquina inferior izquierda, que aumentaba a 100.
+
+3 - Removido bloco que ficava no canto inferior direito, que mostrava o gadget que o player portava.
+     Se eliminó el bloque que estaba en la esquina inferior derecha, que mostraba el dispositivo que tenía el jugador.
+
+4 - A cada empate em um round, não esta sendo mais acrescentado 1 ponto para os dois times.
+     Por cada empate en una ronda, ya no se suma 1 punto a ambos equipos.
+
+5 - Removido o painel de login oficial do stealth que ficava no inicio e ninguém usava.
+     Se eliminó el panel de inicio de sesión sigiloso oficial que estaba al principio y nadie lo usaba.
+
+6 - Removida a mensagem que ficava no centro inferior da tela mostrando quem mais havia matado na partida.
+    Se eliminó la mensaje que estaba en la parte inferior central de la pantalla que mostraba quién había matado más en la partida.
+
+7 - Música adicionada na tela de escolha do time.
+     Canción agregada a la pantalla de selección de equipo.
+
+8 - Menu de armas melhorado; teve seu tamanho diminuído.
+     Menú de armas mejorado; su tamaño ha disminuido.
+
+9 - Remoção do bloco que possuia apenas o item "colete" do menu de armas.
+     Se eliminó el bloque que solo tiene el elemento "chaleco" del menú de armas.
+
+10- Colete passou a ser item inicial na partida, assim que você confirma a escolha das armas o colete é setado.
+El chaleco se convirtió en el elemento inicial del partido, tan pronto como confirmes tu elección de armas, el chaleco estará listo.
+
+11- Removido label que aparecia no final do round mostrando quantos cada um matou.
+     Se eliminó la etiqueta que aparece al final de la ronda que muestra cuántos mató cada persona.
+
+12- Glitches que ocasionam a perda de FPS (drops) foram resolvidos.
+     Se han solucionado los fallos que provocaban la pérdida de FPS (drops).
+
+[Commands]
+
+/stats, /top100, /rs [reset-score]
+
+</help>

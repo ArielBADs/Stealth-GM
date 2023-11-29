@@ -1,0 +1,46 @@
+<help>auto-SPAR - by arielszz
+
+[Como usar]
+
+1 - Use o comando /criarspar [Valor] para definir quantos players irão ter para cada time.
+
+2 - Após realizar o comando anterior, os players podem se registrar de acordo com seu time:
+
+    Para 1º equipe: /spar1
+    Para 2º equipe: /spar2
+
+3 - Quando a quantidade de players registrados em cada time for igual a quantidade definida no /criarspar o SPAR iniciará.
+
+4 - Uma contagem começará e assim que terminar os players que não foram registrados em algum time serão expulsos do servidor.
+
+5 - Após o kick, o mapa resetará para sth-fabric e os players registrados serão inseridos automaticamente de acordo com o time registrado:
+
+    Para /spar1, é inserido no team RED.
+    Para /spar2, é inserido no team BLUE.
+
+6 - Quando a quantidade de pontos de um dos times chegar a 10, o script irá trocar para sth-burrito e inserir nos times automaticamente novamente.
+
+7 - Se caso o time que ganhou o 1º mapa ganhar o 2º mapa, o script dará vitória a esse time e resetará para sth-fabric, assim liberando os comandos.
+
+8 - Caso o time que perdeu o 1º mapa ganhar o 2º mapa, o script trocará para sth-motor.
+
+[Observações]
+
+- Se você sair do servidor antes do SPAR iniciar, será removido da equipe que se registrou.
+
+- Caso iniciar um SPAR e você ter que relogar, não altere o nome fora do servidor.
+
+- Se todos sairem do servidor, o script se auto-resetará e finalizará o spar.
+
+- Caso iniciou o comando /criarspar com um valor errado ou quiser alterar, use:
+
+    /resetCreate, esse comando só pode ser utilizado a cada 3 minutos.
+    (O comando não pode ser usado após o SPAR iniciar)
+
+- O script só funciona para Stealth no momento.
+
+[Comandos]
+
+/criarspar [valor], /spar1, /spar2, /resetCreate, /pause, /add
+
+</help>

@@ -1,0 +1,59 @@
+<meta>
+    <info author='arielsz' type='gamemode' name='Stealth:PRO' version='5.1.0' edf:definition="edf/stealth_pro.edf" />
+	<config src="help.xml" type="client" />
+
+    <settings>
+        <setting name='*round_time_limit' value='3' friendlyname="Round Time" group="GameMode Settings" accept="*" desc="" />
+		<setting name='*fps_limit' value='240' friendlyname="FPS Limit" group="GameMode Settings" accept="*" desc="" />
+		<setting name='*stats_system' value='true' friendlyname="Stats System" group="GameMode Settings" accept="*" desc="" />
+
+        <setting name='*team_red_name' value='RED' friendlyname="Red Team Name" group="Team Settings" accept="*" desc="" />
+		<setting name='*team_blue_name' value='BLUE' friendlyname="Blue Team Name" group="Team Settings" accept="*" desc="" />
+        <setting name='*spy_skin' value='285' friendlyname="Spy Skin" group="Team Settings" accept="*" desc="" />
+		<setting name='*mercenary_skin' value='2' friendlyname="Mercenary Skin" group="Team Settings" accept="*" desc="" />
+		
+		<setting name='*quickreload' value='false' friendlyname="quickreload" group="Game Glitches" accept="*" desc="" />
+		<setting name='*fastmove' value='false' friendlyname="fastmove" group="Game Glitches" accept="*" desc="" />
+		<setting name='*fastfire' value='false' friendlyname="fastfire" group="Game Glitches" accept="*" desc="" />
+		<setting name='*crouchbug' value='false' friendlyname="crouchbug" group="Game Glitches" accept="*" desc="" />
+		<setting name='*highcloserangedamage' value='false' friendlyname="highcloserangedamage" group="Game Glitches" accept="*" desc="" />
+		<setting name='*hitanim' value='false' friendlyname="hitanim" group="Game Glitches" accept="*" desc="" />
+		<setting name='*fastsprint' value='true' friendlyname="fastsprint" group="Game Glitches" accept="*" desc="" />
+		
+	    <setting name='*deagle' value='2023' friendlyname="Desert Eagle" group="Weapon Settings" accept="*" desc="" /> 
+		<setting name='*m4' value='2023' friendlyname="M4" group="Weapon Settings" accept="*" desc="" /> 
+		<setting name='*ak-47' value='2023' friendlyname="AK-47" group="Weapon Settings" accept="*" desc="" /> 
+		<setting name='*sniper' value='2023' friendlyname="Sniper Rifle" group="Weapon Settings" accept="*" desc="" /> 
+		<setting name='*rifle' value='2023' friendlyname="Country Rifle" group="Weapon Settings" accept="*" desc=""  /> 
+		<setting name='*grenade' value='2' friendlyname="Grenade" group="Weapon Settings" accept="*" desc="" /> 
+		<setting name='*armor' value='100' friendlyname="Armor" group="Gadget Settings" accept="*" desc="" /> 
+    </settings>
+    
+    <include resource='missiontimer' />
+
+	<script src='stealth_client.lua' type='client' cache='false' />
+    <script src='stealth_server.lua' type='server' />
+
+		<export function='returnTeam1' type='server' />
+		<export function='returnTeam2' type='server' />
+		<export function='returnScore1' type='server' />
+		<export function='returnScore2' type='server' />
+		<export function='hideTab' type='server' />
+		<export function='stopTimer' type='server' />
+		<export function='returnTimer' type='server' />
+		<export function='addPlayer' type='server' />
+
+	
+	
+    <file src="edf/mercenaryspawn.png" />
+    <file src="edf/spyspawn.png" />
+	<file src='audio/intro.mp3' />
+	<file src='audio/round_end.mp3' />
+    <file src='img/red.png' />
+    <file src='img/blu.png' />
+    <file src='img/tie.png' />
+    <file src='fonts/cs_regular.ttf' />
+	<file src='mods/riot_shield.col' />
+	<file src='mods/riot_shield.dff' />
+	<file src='mods/riot_shield.txd' />
+</meta>

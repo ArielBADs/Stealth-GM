@@ -1,0 +1,15 @@
+<meta>
+	<info author="arielszz" description="Autospar resource" type="script" version="1.1.0" />
+
+	<config src="help.xml" type="client" />
+
+	<include resource="helpmanager" />
+	<include resource="mapmanager" />
+	<include resource="stealth" />
+
+	<script src="autospar_client.lua" type= "client" />
+	<script src="autospar_server.lua" type= "server" />
+	
+	<file src='audio/unpause.mp3' />
+
+</meta>
